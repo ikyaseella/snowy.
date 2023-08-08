@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    text-align: center;
+    background-color: red;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    transition: 0.5s;
+}
+li{
+    margin: 30px;
+}
+a{
+    text-decoration-line: none;
+    color: yellow;
+}
+a:hover{
+    color: blue;
+    transition: 0.5;
+}
+a:active{
+    color: red;
+}
